@@ -75,18 +75,18 @@ export default class Main extends React.Component {
                 fontFamily: "Raleway",
               }}
             >
-              Hi.. i'm dario, i am a develop website(html, css, javascript, php,
+              Hi.. 😎 i'm Dario, i am a develop website(html, css, javascript, php,
               sql, and framework like: react, angular node and more.. ) and
               apps(react-native, flutter, xamarin) for passion, i study at
               ca-foscari university on 1° year,
-              <br></br> I am open to work send me and email at:{" "}
+              <br></br> I am open to work send me an email at:{" "}
               <a
                 style={{ color: "#7C83FD" }}
                 href="mailto:dario.sponchiadoo@gmail.com"
               >
-                dario.sponchiado@gmail.com
+                dario.sponchiadoo@gmail.com
               </a>
-              <p>see you soon... 🤨</p>
+              <p>Happy Coding to everyone! 🤓💻</p>
             </p>
           </div>
         </div>
