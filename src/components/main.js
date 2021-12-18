@@ -5,11 +5,13 @@ import { CssBaseline } from "@material-ui/core";
 import image from "../assets/22028733.jpeg";
 import "../index.css";
 import Loader from "./loader";
+
 export default class Main extends React.Component {
   constructor(props) {
     super(props);
     this.init();
   }
+
   init() {
     this.state = {
       offsetX: "",
@@ -20,8 +22,8 @@ export default class Main extends React.Component {
   }
 
   componentDidMount() {
-    document.body.style.backgroundColor = "#96BAFF"
-    document.body.style.opacity = '0.9'
+    document.body.style.backgroundColor = "red";
+    document.body.style.opacity = "0.9";
     document.addEventListener("mousemove", this._mouseMove);
   }
   componentWillUnmount() {
@@ -40,57 +42,58 @@ export default class Main extends React.Component {
       offsetY: y,
     });
   }
+
   render() {
     let offset = {
       transform: `translate(-50%, -50%) perspective(600px)
                   rotateY(${this.state.offsetX}deg)
                   rotateX(${this.state.offsetY}deg)`,
     };
+
     return (
-      
-        <div className="wrapper" style={offset}>
-          <Loader/>
-          <img style={{borderRadius:10}} src={image} alt="me"></img>
-          <div
+      <div className="wrapper" style={offset}>
+        <Loader />
+        <img style={{ borderRadius: 10 }} src={image} alt="me"></img>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            margin: "100px",
+          }}
+        >
+          <h1
             style={{
-              display: "flex",
-              flexDirection: "column",
-              margin: "100px",
+              textAlign: "center",
+              fontFamily: "Raleway",
             }}
           >
-            <h1
-              style={{
-                textAlign: "center",
-                fontFamily: "Raleway",
-              }}
-            >
-              Dario Sponchiado
-            </h1>
+            Dario Sponchiado
+          </h1>
 
-            <p
-              style={{
-                justifyContent: "center",
-                textAlign: "center",
-                fontSize: 15,
-                fontFamily: "Raleway",
-              }}
+          <p
+            style={{
+              justifyContent: "center",
+              textAlign: "center",
+              fontSize: 15,
+              fontFamily: "Raleway",
+            }}
+          >
+            Hi.. 😎 i'm Dario, i am a fullstack developer, my works are based on
+            the creation of dynamic websites (html, css, javascript, php, with
+            frameworks like: react, angular.js, node.js, laravel and yii2 ) and
+            apps(react-native, flutter, xamarin). Recently i started studying
+            Information Technology at Ca Foscari university,
+            <br></br> Contact me if you are interested at: <br></br>
+            <a
+              style={{ color: "#7C83FD" }}
+              href="mailto:dario.sponchiadoo@gmail.com"
             >
-              Hi.. 😎 i'm Dario, i am a develop website(html, css, javascript, php,
-              sql, and framework like: react, angular node and more.. ) and
-              apps(react-native, flutter, xamarin) for passion, i study at
-              ca-foscari university on 1° year,
-              <br></br> I am open to work send me an email at:{" "}
-              <a
-                style={{ color: "#7C83FD" }}
-                href="mailto:dario.sponchiadoo@gmail.com"
-              >
-                dario.sponchiadoo@gmail.com
-              </a>
-              <p>Happy Coding to everyone! 🤓💻</p>
-            </p>
-          </div>
+              dario.sponchiadoo@gmail.com
+            </a>
+            <p>Happy Coding to everyone! 🤓💻</p>
+          </p>
         </div>
-     
+      </div>
     );
   }
 }

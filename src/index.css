@@ -18,6 +18,14 @@
   transform-style: preserve-3d;
   border-radius: 10px;
 }
+.snowflake {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(white, white); /* Workaround for Chromium's selective color inversion */
+  border-radius: 50%;
+  filter: drop-shadow(0 0 10px white);
+}
 .App-logo {
   right: 50%;
   margin-top: -45%;

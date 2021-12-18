@@ -1,13 +1,13 @@
 import { makeStyles } from "@material-ui/core";
 import React from "react";
 import Logo from "../logo.svg";
-import { ReactSVG } from 'react-svg'
 
 const style = makeStyles((theme) => ({
   root: {
     textAlign: "left",
     width: "10%",
     position: "absolute",
+    
   },
 }));
 

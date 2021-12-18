@@ -1,2 +1,0 @@
-#app{width:100vw;height:100vh}.wrapper{position:absolute;top:50%;z-index:100;left:50%;border-radius:310px;background-color:#f9f9f9;display:flex;transform:translate(-50%,-50%) perspective(600px) rotateY(20deg) rotateX(10deg);transform-style:preserve-3d;border-radius:10px}.App-logo{right:50%;margin-top:-45%;z-index:10;position:relative;animation:App-logo-spin 20s linear infinite reverse}@keyframes App-logo-spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}
-/*# sourceMappingURL=main.def71ee9.chunk.css.map */
