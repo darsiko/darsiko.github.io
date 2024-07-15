@@ -81,7 +81,7 @@ export default class Main extends React.Component {
             Hi.. 😎 i'm Dario, i am a fullstack developer, my works are based on
             the creation of dynamic websites (html, css, javascript, php, with
             frameworks like: react, angular.js, node.js, laravel and yii2 ) and
-            apps(react-native, flutter, xamarin). Recently i started studying
+            apps(react-native, flutter, xamarin). Recently i am studying
             Information Technology at Ca Foscari university,
             <br></br> Contact me if you are interested at: <br></br>
             <a
